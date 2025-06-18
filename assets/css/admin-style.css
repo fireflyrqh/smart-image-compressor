@@ -1,0 +1,71 @@
+/* 图片压缩器后台基础样式 */
+.wrap h1 {
+    margin-bottom: 20px;
+}
+.form-table th {
+    width: 180px;
+}
+#image-compressor-batch-status {
+    margin-top: 15px;
+    color: #2271b1;
+}
+
+/* 进度条样式 */
+.progress-bar-container {
+    width: 100%;
+    height: 20px;
+    background-color: #f0f0f0;
+    border-radius: 3px;
+    margin: 10px 0;
+    position: relative;
+    overflow: hidden;
+}
+
+.progress-bar {
+    height: 100%;
+    background-color: #2271b1;
+    width: 0%;
+    transition: width 0.3s ease;
+}
+
+.progress-text {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #000;
+    font-weight: bold;
+}
+
+/* 状态消息样式 */
+.error-message {
+    color: #dc3232;
+    font-weight: bold;
+}
+
+.success-message {
+    color: #46b450;
+    font-weight: bold;
+}
+
+/* 压缩结果样式 */
+.compression-result {
+    margin-left: 10px;
+    display: inline-block;
+    padding: 2px 8px;
+    border-radius: 3px;
+}
+
+.compression-result.success {
+    background-color: #f0fff0;
+    border: 1px solid #46b450;
+}
+
+.compression-result.error {
+    background-color: #fff0f0;
+    border: 1px solid #dc3232;
+}
