@@ -16,6 +16,9 @@
 - 🛠️ 可自定义压缩参数
 - 🚀 轻量级，不影响网站性能
 
+<img src="https://github.com/fireflyrqh/smart-image-compressor/blob/f44d08697167f60ddba3691e69ad046bbf0f3fe8/%E6%88%AA%E5%B1%8F2025-06-18%2021.29.22.png
+" alt="截图" width="500">  <!-- 宽度设为500像素 -->
+
 ## 安装
 
 1. 下载最新版本的插件 ZIP 文件
